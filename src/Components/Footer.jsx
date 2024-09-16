@@ -28,7 +28,7 @@ const Footer = () => {
           <p className="py-1">Gurugram, Haryana, 122001, India</p>
         </div>
         <div className="flex space-x-6">
-          <a href="www.linkedin.com/in/shivendra-jadoun-4856882b9" className="text-gray-100 hover:text-gray-300" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/shivendra-jadoun-4856882b9" className="text-gray-100 hover:text-gray-300" aria-label="LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
           <a href="https://github.com/ShivendraSinghJadoun" className="text-gray-100 hover:text-gray-300" aria-label="Github">
