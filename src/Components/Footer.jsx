@@ -12,7 +12,7 @@ const Footer = () => {
           <p className="text-lg font-semibold">Contact</p>
           <p className="py-1 flex items-center">
             <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-            <a href="mailto:kashyap1strishi@gmail.com" className="hover:text-gray-300">Shivendra.jadoun@gmail.com</a>
+            <a href="shivendra.jadoun@gmail.com" className="hover:text-gray-300">Shivendra.jadoun@gmail.com</a>
           </p>
           <p className="py-1 flex items-center">
             <FontAwesomeIcon icon={faPhone} className="mr-2" />
