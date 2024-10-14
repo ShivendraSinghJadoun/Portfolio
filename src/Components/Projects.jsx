@@ -1,5 +1,6 @@
 import React from "react";
 import Learn from "../assests/passop.png";
+import youtube from "../assests/youtube.png";
 import study from "../assests/study sync.png";
 import image from "../assests/foody zone.png";
 
@@ -45,7 +46,49 @@ function Projects() {
                 View Project
               </button>
             </a>
-            <a href="" target="_blank">
+            <a href="https://github.com/ShivendraSinghJadoun/passop" target="_blank">
+              <button className="bg-gray-700 text-white text-xl font-medium py-2 px-6 rounded-lg shadow-md hover:bg-gray-800 transition-all duration-300 transform hover:scale-105">
+                View Source Code
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-center items-center gap-8 p-4 w-full md:w-3/4 border-b-2 rounded-lg animate-slide-up">
+        <div className="w-full md:w-1/2 transform transition-transform duration-500 hover:scale-105">
+          <img
+            src={youtube}
+            alt="youtube"
+            className="w-full h-auto rounded-lg shadow-md animate-zoom-in"
+          />
+        </div>
+        <div className="w-full md:w-1/2 flex flex-col gap-4">
+          <h3 className="text-2xl font-bold animate-fade-in">YouTube</h3>
+          <p className="text-lg animate-fade-in">
+          YouTube Backend: A project that integrates YouTube functionalities with Twitter's tweet features
+          </p>
+          <ul className="list-disc pl-5 text-lg space-y-2 animate-fade-in">
+            <li>
+            Comprehensive user management system with registration, authentication, and profile customization.{" "}
+            </li>
+            <li>
+            Video hosting capabilities including upload, search, and visibility control, mirroring core YouTube functionalities.
+            </li>
+            <li>
+            Integrated tweet system allowing users to create, view, and manage tweets within the platform.
+            </li>
+            <li>
+            Backend built with Node.js, Express.js, and MongoDB, with cloud-based media storage using Cloudinary
+            </li>
+          </ul>
+          <div className="btns flex flex-col md:flex-row gap-4 justify-center items-center mt-4">
+            <a href="youtube-frontend-topaz.vercel.app" target="_blank">
+              <button className="bg-blue-600 text-white text-xl font-medium py-2 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+                View Project
+              </button>
+            </a>
+            <a href="https://github.com/ShivendraSinghJadoun/youtube-frontend" target="_blank">
               <button className="bg-gray-700 text-white text-xl font-medium py-2 px-6 rounded-lg shadow-md hover:bg-gray-800 transition-all duration-300 transform hover:scale-105">
                 View Source Code
               </button>
@@ -82,7 +125,7 @@ function Projects() {
             </li>
           </ul>
           <div className="btns flex flex-col md:flex-row gap-4 justify-center items-center mt-4">
-            <a href="https://passop-one.vercel.app" target="_blank">
+            <a href="" target="_blank">
               <button className="bg-blue-600 text-white text-xl font-medium py-2 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
                 View Project
               </button>
