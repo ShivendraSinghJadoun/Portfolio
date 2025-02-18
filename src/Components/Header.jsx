@@ -34,7 +34,7 @@ const Header = () => {
           <a href="#contact" className="px-4 py-2 my-1 sm:my-0 hover:text-gray-300">
              Contacts
           </a>
-          <a href="mailto:kashyap1strishi@gmail.com" className="px-4 py-2 my-1 sm:my-0 hover:text-gray-300">
+          <a href="mailto:shivendra.jadoun@gmail.com" className="px-4 py-2 my-1 sm:my-0 hover:text-gray-300">
              Hire me
           </a>
          
